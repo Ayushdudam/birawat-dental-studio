@@ -10,13 +10,13 @@ export const LocationHub: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-2">
           <span className="text-xs font-bold tracking-widest text-copper-600 uppercase">
-            Lower Parel Clinic & Directions
+            {CLINIC_INFO.address.area} Clinic & Directions
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-forest-900 tracking-tight">
-            Accessible Lower Parel & Worli Location
+            Accessible {CLINIC_INFO.address.area} Location
           </h2>
           <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-            Conveniently situated along S. S. Amrutwar Marg, opposite B.D.D. Chawl 107, near Padmashali Chowk in Lower Parel West / Worli.
+            Conveniently situated at {CLINIC_INFO.address.line1}, {CLINIC_INFO.address.line2}, {CLINIC_INFO.address.area}.
           </p>
         </div>
 

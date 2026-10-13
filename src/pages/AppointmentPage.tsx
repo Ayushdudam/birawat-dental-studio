@@ -14,7 +14,7 @@ export const AppointmentPage: React.FC = () => {
             <span>Direct Clinical Scheduling</span>
           </div>
           <h1 className="font-serif text-3xl sm:text-5xl font-bold text-forest-900 tracking-tight">
-            Schedule a Consultation in Lower Parel / Worli
+            Schedule a Consultation in {CLINIC_INFO.address.area}
           </h1>
           <p className="text-text-muted text-xs sm:text-sm leading-relaxed">
             Fill in the details below. Our reception desk will review doctor availability and reach out to confirm your scheduled slot.

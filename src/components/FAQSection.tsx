@@ -22,7 +22,7 @@ export const FAQSection: React.FC = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xs sm:text-sm text-text-muted">
-            Clear, honest answers regarding treatments, comfort protocols, and visiting our Lower Parel practice.
+            Clear, honest answers regarding treatments, comfort protocols, and visiting our {CLINIC_INFO.address.area} practice.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export const FAQSection: React.FC = () => {
               Have a Question That Isn't Listed Here?
             </h4>
             <p className="text-xs text-text-muted">
-              Connect directly with our Lower Parel desk on WhatsApp or call our practice.
+              Connect directly with our {CLINIC_INFO.address.area} desk on WhatsApp or call our practice.
             </p>
           </div>
 

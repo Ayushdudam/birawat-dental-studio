@@ -71,7 +71,7 @@ export const DoctorClinicSection: React.FC = () => {
               {/* Decorative Pill */}
               <div className="absolute -top-3 -right-3 bg-copper-500 text-white py-1.5 px-3.5 rounded-full text-[11px] font-bold shadow-soft-card flex items-center gap-1.5">
                 <Sparkles className="w-3 h-3" />
-                <span>Lower Parel Practice</span>
+                <span>{CLINIC_INFO.address.area} Practice</span>
               </div>
 
             </div>

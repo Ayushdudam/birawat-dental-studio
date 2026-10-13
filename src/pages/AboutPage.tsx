@@ -14,7 +14,7 @@ export const AboutPage: React.FC = () => {
             <span>About The Practice</span>
           </div>
           <h1 className="font-serif text-3xl sm:text-5xl font-bold text-forest-900 tracking-tight leading-tight">
-            A Modern Dental & Implant Sanctuary in Lower Parel / Worli
+            A Modern Dental & Implant Sanctuary in {CLINIC_INFO.address.area}
           </h1>
           <p className="text-text-muted text-base sm:text-lg leading-relaxed">
             Led by {DOCTOR_INFO.name}, {DOCTOR_INFO.qualification}, {CLINIC_INFO.name} was established with a singular medical commitment: to replace the hurried, high-stress atmosphere of conventional dental clinics with unhurried listening, gentle touch, and lasting aesthetic care.

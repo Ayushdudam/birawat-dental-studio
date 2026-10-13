@@ -76,18 +76,18 @@ export const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
           
           {/* Brand Identity */}
-          <Link to="/" className="flex items-center gap-3 group shrink-0 focus:outline-none" aria-label="Birawat Dental Studio Home">
+          <Link to="/" className="flex items-center gap-3 group shrink-0 focus:outline-none" aria-label={`${CLINIC_INFO.name} Home`}>
             <div className="w-10 h-10 rounded-xl bg-forest-800 text-white flex items-center justify-center shadow-soft-card group-hover:bg-forest-900 transition-colors">
               <svg className="w-5 h-5 fill-current text-white" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M12 2C8.5 2 6 4.5 6 8c0 3.2 1.2 6.5 2.2 10.2.6 2.3 2 3.8 3.8 3.8s3.2-1.5 3.8-3.8c1-3.7 2.2-7 2.2-10.2 0-3.5-2.5-6-6-6zm0 3.5c1.4 0 2.5 1.1 2.5 2.5 0 .8-.4 1.6-1 2.1-.4-.6-1-1.1-1.5-1.1s-1.1.5-1.5 1.1c-.6-.5-1-1.3-1-2.1 0-1.4 1.1-2.5 2.5-2.5z"/>
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-forest-800 leading-tight">
-                Birawat Dental
+              <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-forest-800 leading-tight">
+                {CLINIC_INFO.name}
               </span>
               <span className="text-[10px] uppercase tracking-widest text-text-muted font-semibold">
-                Studio • Lower Parel / Worli
+                {CLINIC_INFO.address.area}
               </span>
             </div>
           </Link>

@@ -72,7 +72,7 @@ export const AppointmentForm: React.FC<AppointmentFormProps> = ({ defaultService
               Request a Clinical Consultation
             </h2>
             <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-              Share your preferred date window. Our Lower Parel clinical desk will reach out promptly to confirm your scheduled slot.
+              Share your preferred date window. Our {CLINIC_INFO.address.area} clinical desk will reach out promptly to confirm your scheduled slot.
             </p>
           </div>
 

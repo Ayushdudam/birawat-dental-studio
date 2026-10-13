@@ -51,7 +51,7 @@ export const NotFoundPage: React.FC = () => {
             className="p-3.5 rounded-xl bg-surface border border-border-subtle text-forest-900 font-semibold hover:bg-stone-50 transition-colors shadow-sm flex items-center justify-center gap-1.5"
           >
             <MapPin className="w-3.5 h-3.5 text-copper-500" />
-            <span>Lower Parel Clinic Location</span>
+            <span>{CLINIC_INFO.address.area} Clinic Location</span>
           </Link>
         </div>
 

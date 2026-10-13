@@ -27,10 +27,10 @@ export const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="font-serif font-bold text-xl text-white block leading-tight">
-                  Birawat
+                  {CLINIC_INFO.name}
                 </span>
                 <span className="text-xs font-semibold tracking-wider uppercase text-forest-100 block">
-                  Dental Studio • Lower Parel / Worli
+                  {CLINIC_INFO.address.area}
                 </span>
               </div>
             </Link>
